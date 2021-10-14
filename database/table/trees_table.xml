@@ -5,7 +5,7 @@
 	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
 	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
 	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
-	<changeSet id="6b302471b1f3a654dd9bb8e3d5fb360e7cadbadc" author="(CICD)-Generated" failOnError="false"    >
+	<changeSet id="0dc824a9f85b408b581456d60359e91e37ad6a6b" author="(CICD)-Generated" failOnError="false"    >
 		<n0:createSxmlObject objectName="TREES" objectType="TABLE" ownerName="CICD"   >
 			<n0:source><![CDATA[
   <TABLE xmlns="http://xmlns.oracle.com/ku" version="1.0">
@@ -69,6 +69,10 @@
             <NAME>SUBMITTION_DATE</NAME>
             <DATATYPE>TIMESTAMP</DATATYPE>
             <SCALE>6</SCALE>
+         </COL_LIST_ITEM>
+         <COL_LIST_ITEM>
+            <NAME>TREE_PICTURE</NAME>
+            <DATATYPE>BLOB</DATATYPE>
          </COL_LIST_ITEM>
       </COL_LIST>
       <DEFAULT_COLLATION>USING_NLS_COMP</DEFAULT_COLLATION>
