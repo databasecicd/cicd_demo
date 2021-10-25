@@ -1,0 +1,77 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    <changeSet author="bspendol (generated)" id="1635186133111-1">
+        <insert tableName="TREES">
+            <column name="TREE_ID" valueNumeric="1"/>
+            <column name="TREE_NAME" value="Cool Tree"/>
+            <column name="TREE_STREET" value="43 West Street"/>
+            <column name="TREE_CITY" value="Cary"/>
+            <column name="TREE_STATE" value="NC"/>
+            <column name="TREE_ZIP" valueNumeric="27511"/>
+            <column name="TREE_DESCRIPTION" value="This tree is super cool"/>
+            <column name="SUBMITTER_NAME" value="Jeff"/>
+            <column name="SUBMITTER_EMAIL" value="jeff@thatjeff.com"/>
+            <column name="SUBMITTION_DATE" valueDate="2021-10-25T18:19:56.463741"/>
+        </insert>
+        <insert tableName="TREES">
+            <column name="TREE_ID" valueNumeric="2"/>
+            <column name="TREE_NAME" value="Christmas Tree red cedar"/>
+            <column name="TREE_STREET" value="112 Wilkinson Ave"/>
+            <column name="TREE_CITY" value="Cary"/>
+            <column name="TREE_STATE" value="NC"/>
+            <column name="TREE_ZIP" valueNumeric="27511"/>
+            <column name="TREE_DESCRIPTION" value="Its about 25 feet tall"/>
+            <column name="SUBMITTER_NAME" value="Jeff"/>
+            <column name="SUBMITTER_EMAIL" value="jeff@thatjeff.com"/>
+            <column name="SUBMITTION_DATE" valueDate="2021-10-25T18:19:56.464911"/>
+        </insert>
+        <insert tableName="TREES">
+            <column name="TREE_ID" valueNumeric="3"/>
+            <column name="TREE_NAME" value="Dawn Redwood tree"/>
+            <column name="TREE_STREET" value="313 N Academy St"/>
+            <column name="TREE_CITY" value="Cary"/>
+            <column name="TREE_STATE" value="NC"/>
+            <column name="TREE_ZIP" valueNumeric="27511"/>
+            <column name="TREE_DESCRIPTION" value="These 15 beautiful trees are not Cypress, they are Dawn Redwoods"/>
+            <column name="SUBMITTER_NAME" value="Jeff"/>
+            <column name="SUBMITTER_EMAIL" value="jeff@thatjeff.com"/>
+            <column name="SUBMITTION_DATE" valueDate="2021-10-25T18:19:56.465704"/>
+        </insert>
+        <insert tableName="TREES">
+            <column name="TREE_ID" valueNumeric="4"/>
+            <column name="TREE_NAME" value="Blackjack Oak at the Arts Center"/>
+            <column name="TREE_STREET" value="101 Dry Ave"/>
+            <column name="TREE_CITY" value="Cary"/>
+            <column name="TREE_STATE" value="NC"/>
+            <column name="TREE_ZIP" valueNumeric="27511"/>
+            <column name="TREE_DESCRIPTION" value="At one time (approximately 1992 to 2011) the Capital Trees Program recorded and listed the champion trees in Wake County."/>
+            <column name="SUBMITTER_NAME" value="Jeff"/>
+            <column name="SUBMITTER_EMAIL" value="jeff@thatjeff.com"/>
+            <column name="SUBMITTION_DATE" valueDate="2021-10-25T18:19:56.46647"/>
+        </insert>
+        <insert tableName="TREES">
+            <column name="TREE_ID" valueNumeric="5"/>
+            <column name="TREE_NAME" value="Test Tree"/>
+            <column name="TREE_STREET" value="4 East Street"/>
+            <column name="TREE_CITY" value="Cary"/>
+            <column name="TREE_STATE" value="NC"/>
+            <column name="TREE_ZIP" valueNumeric="27511"/>
+            <column name="TREE_DESCRIPTION" value="Test Tree please delete"/>
+            <column name="SUBMITTER_NAME" value="Jeff"/>
+            <column name="SUBMITTER_EMAIL" value="jeff@thatjeff.com"/>
+            <column name="SUBMITTION_DATE" valueDate="2021-10-25T18:19:56.467203"/>
+        </insert>
+        <insert tableName="TREES">
+            <column name="TREE_ID" valueNumeric="6"/>
+            <column name="TREE_NAME" value="Tree with Cat"/>
+            <column name="TREE_STREET" value="2220 W Marilyn Cir"/>
+            <column name="TREE_CITY" value="Cary"/>
+            <column name="TREE_STATE" value="NC"/>
+            <column name="TREE_ZIP" valueNumeric="27511"/>
+            <column name="TREE_DESCRIPTION" value="Tree with a cat in it"/>
+            <column name="SUBMITTER_NAME" value="Jeff"/>
+            <column name="SUBMITTER_EMAIL" value="jeff@thatjeff.com"/>
+            <column name="SUBMITTION_DATE" valueDate="2021-10-25T18:19:56.467975"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
